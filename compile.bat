@@ -4,7 +4,7 @@
 
 @cd boot
 
-nasm boot.asm -f bin -o ../../POS.flp
+nasm boot.s -f bin -o ../../POS.flp
 
 @cd ..
 
