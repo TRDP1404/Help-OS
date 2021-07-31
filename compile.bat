@@ -1,7 +1,11 @@
 @cls
 
+@cd src
+
 @cd boot
 
-nasm boot.asm -f bin -o ../POS.flp
+nasm boot.asm -f bin -o ../../POS.flp
+
+@cd ..
 
 @cd ..
